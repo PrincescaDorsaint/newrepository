@@ -6,7 +6,7 @@ from wordcloud import WordCloud
 d = path.dirname(__file__)
 
 # Read the whole text.
-text = open(path.join(d, 'wcloud_04.27.18 Manual.txt')).read()
+text = open(path.join(d, 'file.txt')).read()
 
 # Generate a word cloud image
 wordcloud = WordCloud().generate(text)
