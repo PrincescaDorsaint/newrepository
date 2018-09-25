@@ -3,7 +3,7 @@
 # Received from 2016 Google Inc.
 
 def run_quickstart():
-    # [START speech_quickstart]
+    # [START google_speech]
     import io
     import os
 
@@ -38,7 +38,7 @@ def run_quickstart():
 
     for result in response.results:
         print('Transcript: {}'.format(result.alternatives[0].transcript))
-    # [END speech_quickstart]
+    # [END google_speech]
 
 
 if __name__ == '__main__':
